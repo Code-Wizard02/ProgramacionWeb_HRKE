@@ -28,6 +28,7 @@ import { ProgressSpinnerModule } from './progress-spinner/progress-spinner.modul
 import { RadioButtonModule } from './radio-button/radio-button.module';
 import { SelectModule } from './select/select.module';
 import { SideNavModule } from './side-nav/side-nav.module';
+import { SliderModule } from './slider/slider.module';
 
 
 @NgModule({
@@ -62,6 +63,7 @@ import { SideNavModule } from './side-nav/side-nav.module';
     RadioButtonModule,
     SelectModule,
     SideNavModule,
+    SliderModule,
     // Agrega aquí otros módulos que quieras importar
   ],
   providers: []
