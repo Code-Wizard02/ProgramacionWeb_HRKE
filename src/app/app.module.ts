@@ -13,6 +13,7 @@ import { ButtonToggleModule } from './button-toggle/button-toggle.module';
 import { CardModule } from './card/card.module';
 import { CheckBoxModule } from './check-box/check-box.module';
 import { ChipsModule } from './chips/chips.module';
+import { DatePickerModule } from './date-picker/date-picker.module';
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import { ChipsModule } from './chips/chips.module';
     CardModule,
     CheckBoxModule,
     ChipsModule,
+    DatePickerModule,
     // Agrega aquí otros módulos que quieras importar
   ],
   providers: []
