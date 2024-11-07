@@ -29,6 +29,7 @@ import { RadioButtonModule } from './radio-button/radio-button.module';
 import { SelectModule } from './select/select.module';
 import { SideNavModule } from './side-nav/side-nav.module';
 import { SliderModule } from './slider/slider.module';
+import { SnackbarModule } from './snackbar/snackbar.module';
 
 
 @NgModule({
@@ -64,6 +65,7 @@ import { SliderModule } from './slider/slider.module';
     SelectModule,
     SideNavModule,
     SliderModule,
+    SnackbarModule,
     // Agrega aquí otros módulos que quieras importar
   ],
   providers: []
