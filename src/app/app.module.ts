@@ -12,6 +12,7 @@ import { ButtonModule } from './button/button.module';
 import { ButtonToggleModule } from './button-toggle/button-toggle.module';
 import { CardModule } from './card/card.module';
 import { CheckBoxModule } from './check-box/check-box.module';
+import { ChipsModule } from './chips/chips.module';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { CheckBoxModule } from './check-box/check-box.module';
     ButtonToggleModule,
     CardModule,
     CheckBoxModule,
+    ChipsModule,
     // Agrega aquí otros módulos que quieras importar
   ],
   providers: []

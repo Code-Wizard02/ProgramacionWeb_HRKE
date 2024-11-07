@@ -6,11 +6,12 @@ import { ButtonComponent } from "./button/button.component";
 import { ButtonToggleComponent } from "./button-toggle/button-toggle.component";
 import { CardComponent } from "./card/card.component";
 import { CheckBoxComponent } from "./check-box/check-box.component";
+import { ChipsComponent } from "./chips/chips.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, AutocompleteComponent, BadgeComponent, ButtonComponent, ButtonToggleComponent, CardComponent, CheckBoxComponent],
+  imports: [RouterOutlet, AutocompleteComponent, BadgeComponent, ButtonComponent, ButtonToggleComponent, CardComponent, CheckBoxComponent, ChipsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
