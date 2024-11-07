@@ -9,11 +9,12 @@ import { CheckBoxComponent } from "./check-box/check-box.component";
 import { ChipsComponent } from "./chips/chips.component";
 import { DatePickerComponent } from "./date-picker/date-picker.component";
 import { DividerComponent } from "./divider/divider.component";
+import { ExpansionPanelComponent } from "./expansion-panel/expansion-panel.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, AutocompleteComponent, BadgeComponent, ButtonComponent, ButtonToggleComponent, CardComponent, CheckBoxComponent, ChipsComponent, DatePickerComponent, DividerComponent],
+  imports: [RouterOutlet, AutocompleteComponent, BadgeComponent, ButtonComponent, ButtonToggleComponent, CardComponent, CheckBoxComponent, ChipsComponent, DatePickerComponent, DividerComponent, ExpansionPanelComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

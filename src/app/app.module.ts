@@ -15,6 +15,7 @@ import { CheckBoxModule } from './check-box/check-box.module';
 import { ChipsModule } from './chips/chips.module';
 import { DialogOverviewModule } from './dialog-overview/dialog-overview.module';
 import { DividerModule } from './divider/divider.module';
+import { ExpansionPanelModule } from './expansion-panel/expansion-panel.module';
 
 
 @NgModule({
@@ -36,6 +37,7 @@ import { DividerModule } from './divider/divider.module';
     ChipsModule,
     DialogOverviewModule,
     DividerModule,
+    ExpansionPanelModule,
     // Agrega aquí otros módulos que quieras importar
   ],
   providers: []
