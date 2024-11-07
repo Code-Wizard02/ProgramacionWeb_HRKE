@@ -9,6 +9,7 @@ import { MatInputModule } from '@angular/material/input';
 import { ReactiveFormsModule } from '@angular/forms';
 import { BadgeModule } from './badge/badge.module';
 import { ButtonModule } from './button/button.module';
+import { ButtonToggleModule } from './button-toggle/button-toggle.module';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { ButtonModule } from './button/button.module';
     ReactiveFormsModule,
     BadgeModule,
     ButtonModule,
+    ButtonToggleModule,
     // Agrega aquí otros módulos que quieras importar
   ],
   providers: []

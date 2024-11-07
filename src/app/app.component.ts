@@ -3,11 +3,12 @@ import { RouterOutlet } from '@angular/router';
 import { AutocompleteComponent } from "./autocomplete/autocomplete.component";
 import { BadgeComponent } from "./badge/badge.component";
 import { ButtonComponent } from "./button/button.component";
+import { ButtonToggleComponent } from "./button-toggle/button-toggle.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, AutocompleteComponent, BadgeComponent, ButtonComponent],
+  imports: [RouterOutlet, AutocompleteComponent, BadgeComponent, ButtonComponent, ButtonToggleComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
