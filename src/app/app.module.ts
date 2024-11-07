@@ -17,6 +17,7 @@ import { DialogOverviewModule } from './dialog-overview/dialog-overview.module';
 import { DividerModule } from './divider/divider.module';
 import { ExpansionPanelModule } from './expansion-panel/expansion-panel.module';
 import { FormFieldModule } from './form-field/form-field.module';
+import { GridListModule } from './grid-list/grid-list.module';
 
 
 @NgModule({
@@ -40,6 +41,7 @@ import { FormFieldModule } from './form-field/form-field.module';
     DividerModule,
     ExpansionPanelModule,
     FormFieldModule,
+    GridListModule,
     // Agrega aquí otros módulos que quieras importar
   ],
   providers: []
