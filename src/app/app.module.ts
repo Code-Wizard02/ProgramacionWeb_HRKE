@@ -20,6 +20,7 @@ import { FormFieldModule } from './form-field/form-field.module';
 import { GridListModule } from './grid-list/grid-list.module';
 import { IconModule } from './icon/icon.module';
 import { InputModule } from './input/input.module';
+import { ListModule } from './list/list.module';
 
 
 @NgModule({
@@ -46,6 +47,7 @@ import { InputModule } from './input/input.module';
     GridListModule,
     IconModule,
     InputModule,
+    ListModule,
     // Agrega aquí otros módulos que quieras importar
   ],
   providers: []

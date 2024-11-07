@@ -14,11 +14,12 @@ import { FormFieldComponent } from "./form-field/form-field.component";
 import { GridListComponent } from "./grid-list/grid-list.component";
 import { IconComponent } from "./icon/icon.component";
 import { InputComponent } from "./input/input.component";
+import { ListComponent } from "./list/list.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, AutocompleteComponent, BadgeComponent, ButtonComponent, ButtonToggleComponent, CardComponent, CheckBoxComponent, ChipsComponent, DatePickerComponent, DividerComponent, ExpansionPanelComponent, FormFieldComponent, GridListComponent, IconComponent, InputComponent],
+  imports: [RouterOutlet, AutocompleteComponent, BadgeComponent, ButtonComponent, ButtonToggleComponent, CardComponent, CheckBoxComponent, ChipsComponent, DatePickerComponent, DividerComponent, ExpansionPanelComponent, FormFieldComponent, GridListComponent, IconComponent, InputComponent, ListComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
