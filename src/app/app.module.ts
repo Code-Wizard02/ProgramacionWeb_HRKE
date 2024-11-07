@@ -18,6 +18,7 @@ import { DividerModule } from './divider/divider.module';
 import { ExpansionPanelModule } from './expansion-panel/expansion-panel.module';
 import { FormFieldModule } from './form-field/form-field.module';
 import { GridListModule } from './grid-list/grid-list.module';
+import { IconModule } from './icon/icon.module';
 
 
 @NgModule({
@@ -42,6 +43,7 @@ import { GridListModule } from './grid-list/grid-list.module';
     ExpansionPanelModule,
     FormFieldModule,
     GridListModule,
+    IconModule,
     // Agrega aquí otros módulos que quieras importar
   ],
   providers: []

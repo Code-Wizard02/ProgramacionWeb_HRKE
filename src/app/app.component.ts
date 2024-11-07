@@ -12,11 +12,12 @@ import { DividerComponent } from "./divider/divider.component";
 import { ExpansionPanelComponent } from "./expansion-panel/expansion-panel.component";
 import { FormFieldComponent } from "./form-field/form-field.component";
 import { GridListComponent } from "./grid-list/grid-list.component";
+import { IconComponent } from "./icon/icon.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, AutocompleteComponent, BadgeComponent, ButtonComponent, ButtonToggleComponent, CardComponent, CheckBoxComponent, ChipsComponent, DatePickerComponent, DividerComponent, ExpansionPanelComponent, FormFieldComponent, GridListComponent],
+  imports: [RouterOutlet, AutocompleteComponent, BadgeComponent, ButtonComponent, ButtonToggleComponent, CardComponent, CheckBoxComponent, ChipsComponent, DatePickerComponent, DividerComponent, ExpansionPanelComponent, FormFieldComponent, GridListComponent, IconComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
