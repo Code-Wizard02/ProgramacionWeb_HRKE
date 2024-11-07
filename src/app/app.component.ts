@@ -25,11 +25,12 @@ import { SideNavComponent } from "./side-nav/side-nav.component";
 import { SlideToggleComponent } from "./slide-toggle/slide-toggle.component";
 import { SliderComponent } from "./slider/slider.component";
 import { SnackbarComponent } from "./snackbar/snackbar.component";
+import { SortHeaderComponent } from "./sort-header/sort-header.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, AutocompleteComponent, BadgeComponent, ButtonComponent, ButtonToggleComponent, CardComponent, CheckBoxComponent, ChipsComponent, DatePickerComponent, DividerComponent, ExpansionPanelComponent, FormFieldComponent, GridListComponent, IconComponent, InputComponent, ListComponent, MenuComponent, PaginatorComponent, ProgressBarComponent, ProgressSpinnerComponent, RadioButtonComponent, SelectComponent, SideNavComponent, SlideToggleComponent, SliderComponent, SnackbarComponent],
+  imports: [RouterOutlet, AutocompleteComponent, BadgeComponent, ButtonComponent, ButtonToggleComponent, CardComponent, CheckBoxComponent, ChipsComponent, DatePickerComponent, DividerComponent, ExpansionPanelComponent, FormFieldComponent, GridListComponent, IconComponent, InputComponent, ListComponent, MenuComponent, PaginatorComponent, ProgressBarComponent, ProgressSpinnerComponent, RadioButtonComponent, SelectComponent, SideNavComponent, SlideToggleComponent, SliderComponent, SnackbarComponent, SortHeaderComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
