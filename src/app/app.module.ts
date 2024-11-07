@@ -23,6 +23,7 @@ import { InputModule } from './input/input.module';
 import { ListModule } from './list/list.module';
 import { MenuModule } from './menu/menu.module';
 import { PaginatorModule } from './paginator/paginator.module';
+import { ProgressBarModule } from './progress-bar/progress-bar.module';
 
 
 @NgModule({
@@ -52,6 +53,7 @@ import { PaginatorModule } from './paginator/paginator.module';
     ListModule,
     MenuModule,
     PaginatorModule,
+    ProgressBarModule,
     // Agrega aquí otros módulos que quieras importar
   ],
   providers: []
