@@ -16,11 +16,12 @@ import { IconComponent } from "./icon/icon.component";
 import { InputComponent } from "./input/input.component";
 import { ListComponent } from "./list/list.component";
 import { MenuComponent } from "./menu/menu.component";
+import { PaginatorComponent } from "./paginator/paginator.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, AutocompleteComponent, BadgeComponent, ButtonComponent, ButtonToggleComponent, CardComponent, CheckBoxComponent, ChipsComponent, DatePickerComponent, DividerComponent, ExpansionPanelComponent, FormFieldComponent, GridListComponent, IconComponent, InputComponent, ListComponent, MenuComponent],
+  imports: [RouterOutlet, AutocompleteComponent, BadgeComponent, ButtonComponent, ButtonToggleComponent, CardComponent, CheckBoxComponent, ChipsComponent, DatePickerComponent, DividerComponent, ExpansionPanelComponent, FormFieldComponent, GridListComponent, IconComponent, InputComponent, ListComponent, MenuComponent, PaginatorComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

@@ -22,6 +22,7 @@ import { IconModule } from './icon/icon.module';
 import { InputModule } from './input/input.module';
 import { ListModule } from './list/list.module';
 import { MenuModule } from './menu/menu.module';
+import { PaginatorModule } from './paginator/paginator.module';
 
 
 @NgModule({
@@ -50,6 +51,7 @@ import { MenuModule } from './menu/menu.module';
     InputModule,
     ListModule,
     MenuModule,
+    PaginatorModule,
     // Agrega aquí otros módulos que quieras importar
   ],
   providers: []
