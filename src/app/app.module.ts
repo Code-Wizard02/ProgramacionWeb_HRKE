@@ -13,7 +13,8 @@ import { ButtonToggleModule } from './button-toggle/button-toggle.module';
 import { CardModule } from './card/card.module';
 import { CheckBoxModule } from './check-box/check-box.module';
 import { ChipsModule } from './chips/chips.module';
-import { DatePickerModule } from './date-picker/date-picker.module';
+import { DialogOverviewModule } from './dialog-overview/dialog-overview.module';
+import { DividerModule } from './divider/divider.module';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { DatePickerModule } from './date-picker/date-picker.module';
     CardModule,
     CheckBoxModule,
     ChipsModule,
-    DatePickerModule,
+    DialogOverviewModule,
+    DividerModule,
     // Agrega aquí otros módulos que quieras importar
   ],
   providers: []
