@@ -22,11 +22,12 @@ import { ProgressSpinnerComponent } from "./progress-spinner/progress-spinner.co
 import { RadioButtonComponent } from "./radio-button/radio-button.component";
 import { SelectComponent } from "./select/select.component";
 import { SideNavComponent } from "./side-nav/side-nav.component";
+import { SlideToggleComponent } from "./slide-toggle/slide-toggle.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, AutocompleteComponent, BadgeComponent, ButtonComponent, ButtonToggleComponent, CardComponent, CheckBoxComponent, ChipsComponent, DatePickerComponent, DividerComponent, ExpansionPanelComponent, FormFieldComponent, GridListComponent, IconComponent, InputComponent, ListComponent, MenuComponent, PaginatorComponent, ProgressBarComponent, ProgressSpinnerComponent, RadioButtonComponent, SelectComponent, SideNavComponent],
+  imports: [RouterOutlet, AutocompleteComponent, BadgeComponent, ButtonComponent, ButtonToggleComponent, CardComponent, CheckBoxComponent, ChipsComponent, DatePickerComponent, DividerComponent, ExpansionPanelComponent, FormFieldComponent, GridListComponent, IconComponent, InputComponent, ListComponent, MenuComponent, PaginatorComponent, ProgressBarComponent, ProgressSpinnerComponent, RadioButtonComponent, SelectComponent, SideNavComponent, SlideToggleComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
