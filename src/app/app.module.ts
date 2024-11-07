@@ -21,6 +21,7 @@ import { GridListModule } from './grid-list/grid-list.module';
 import { IconModule } from './icon/icon.module';
 import { InputModule } from './input/input.module';
 import { ListModule } from './list/list.module';
+import { MenuModule } from './menu/menu.module';
 
 
 @NgModule({
@@ -48,6 +49,7 @@ import { ListModule } from './list/list.module';
     IconModule,
     InputModule,
     ListModule,
+    MenuModule,
     // Agrega aquí otros módulos que quieras importar
   ],
   providers: []
