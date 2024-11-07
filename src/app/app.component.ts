@@ -10,11 +10,12 @@ import { ChipsComponent } from "./chips/chips.component";
 import { DatePickerComponent } from "./date-picker/date-picker.component";
 import { DividerComponent } from "./divider/divider.component";
 import { ExpansionPanelComponent } from "./expansion-panel/expansion-panel.component";
+import { FormFieldComponent } from "./form-field/form-field.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, AutocompleteComponent, BadgeComponent, ButtonComponent, ButtonToggleComponent, CardComponent, CheckBoxComponent, ChipsComponent, DatePickerComponent, DividerComponent, ExpansionPanelComponent],
+  imports: [RouterOutlet, AutocompleteComponent, BadgeComponent, ButtonComponent, ButtonToggleComponent, CardComponent, CheckBoxComponent, ChipsComponent, DatePickerComponent, DividerComponent, ExpansionPanelComponent, FormFieldComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

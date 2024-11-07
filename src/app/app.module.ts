@@ -16,6 +16,7 @@ import { ChipsModule } from './chips/chips.module';
 import { DialogOverviewModule } from './dialog-overview/dialog-overview.module';
 import { DividerModule } from './divider/divider.module';
 import { ExpansionPanelModule } from './expansion-panel/expansion-panel.module';
+import { FormFieldModule } from './form-field/form-field.module';
 
 
 @NgModule({
@@ -38,6 +39,7 @@ import { ExpansionPanelModule } from './expansion-panel/expansion-panel.module';
     DialogOverviewModule,
     DividerModule,
     ExpansionPanelModule,
+    FormFieldModule,
     // Agrega aquí otros módulos que quieras importar
   ],
   providers: []
