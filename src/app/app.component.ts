@@ -18,11 +18,12 @@ import { ListComponent } from "./list/list.component";
 import { MenuComponent } from "./menu/menu.component";
 import { PaginatorComponent } from "./paginator/paginator.component";
 import { ProgressBarComponent } from "./progress-bar/progress-bar.component";
+import { ProgressSpinnerComponent } from "./progress-spinner/progress-spinner.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, AutocompleteComponent, BadgeComponent, ButtonComponent, ButtonToggleComponent, CardComponent, CheckBoxComponent, ChipsComponent, DatePickerComponent, DividerComponent, ExpansionPanelComponent, FormFieldComponent, GridListComponent, IconComponent, InputComponent, ListComponent, MenuComponent, PaginatorComponent, ProgressBarComponent],
+  imports: [RouterOutlet, AutocompleteComponent, BadgeComponent, ButtonComponent, ButtonToggleComponent, CardComponent, CheckBoxComponent, ChipsComponent, DatePickerComponent, DividerComponent, ExpansionPanelComponent, FormFieldComponent, GridListComponent, IconComponent, InputComponent, ListComponent, MenuComponent, PaginatorComponent, ProgressBarComponent, ProgressSpinnerComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

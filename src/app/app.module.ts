@@ -24,6 +24,7 @@ import { ListModule } from './list/list.module';
 import { MenuModule } from './menu/menu.module';
 import { PaginatorModule } from './paginator/paginator.module';
 import { ProgressBarModule } from './progress-bar/progress-bar.module';
+import { ProgressSpinnerModule } from './progress-spinner/progress-spinner.module';
 
 
 @NgModule({
@@ -54,6 +55,7 @@ import { ProgressBarModule } from './progress-bar/progress-bar.module';
     MenuModule,
     PaginatorModule,
     ProgressBarModule,
+    ProgressSpinnerModule,
     // Agrega aquí otros módulos que quieras importar
   ],
   providers: []
