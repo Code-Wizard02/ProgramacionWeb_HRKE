@@ -10,6 +10,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { BadgeModule } from './badge/badge.module';
 import { ButtonModule } from './button/button.module';
 import { ButtonToggleModule } from './button-toggle/button-toggle.module';
+import { CardModule } from './card/card.module';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { ButtonToggleModule } from './button-toggle/button-toggle.module';
     BadgeModule,
     ButtonModule,
     ButtonToggleModule,
+    CardModule,
     // Agrega aquí otros módulos que quieras importar
   ],
   providers: []
