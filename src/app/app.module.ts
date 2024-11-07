@@ -32,6 +32,7 @@ import { SliderModule } from './slider/slider.module';
 import { SnackbarModule } from './snackbar/snackbar.module';
 import { SortHeaderModule } from './sort-header/sort-header.module';
 import { StepperModule } from './stepper/stepper.module';
+import { TableModule } from './table/table.module';
 
 
 @NgModule({
@@ -70,6 +71,7 @@ import { StepperModule } from './stepper/stepper.module';
     SnackbarModule,
     SortHeaderModule,
     StepperModule,
+    TableModule,
     // Agrega aquí otros módulos que quieras importar
   ],
   providers: []
