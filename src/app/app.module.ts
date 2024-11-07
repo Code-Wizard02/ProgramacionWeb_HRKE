@@ -25,6 +25,7 @@ import { MenuModule } from './menu/menu.module';
 import { PaginatorModule } from './paginator/paginator.module';
 import { ProgressBarModule } from './progress-bar/progress-bar.module';
 import { ProgressSpinnerModule } from './progress-spinner/progress-spinner.module';
+import { RadioButtonModule } from './radio-button/radio-button.module';
 
 
 @NgModule({
@@ -56,6 +57,7 @@ import { ProgressSpinnerModule } from './progress-spinner/progress-spinner.modul
     PaginatorModule,
     ProgressBarModule,
     ProgressSpinnerModule,
+    RadioButtonModule,
     // Agrega aquí otros módulos que quieras importar
   ],
   providers: []
