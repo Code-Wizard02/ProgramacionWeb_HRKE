@@ -34,6 +34,7 @@ import { SortHeaderModule } from './sort-header/sort-header.module';
 import { StepperModule } from './stepper/stepper.module';
 import { TableModule } from './table/table.module';
 import { TabsModule } from './tabs/tabs.module';
+import { ToolbarModule } from './toolbar/toolbar.module';
 
 
 @NgModule({
@@ -74,6 +75,7 @@ import { TabsModule } from './tabs/tabs.module';
     StepperModule,
     TableModule,
     TabsModule,
+    ToolbarModule,
     // Agrega aquí otros módulos que quieras importar
   ],
   providers: []

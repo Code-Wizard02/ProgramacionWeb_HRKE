@@ -29,11 +29,12 @@ import { SortHeaderComponent } from "./sort-header/sort-header.component";
 import { StepperComponent } from "./stepper/stepper.component";
 import { TableComponent } from "./table/table.component";
 import { TabsComponent } from "./tabs/tabs.component";
+import { ToolbarComponent } from "./toolbar/toolbar.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, AutocompleteComponent, BadgeComponent, ButtonComponent, ButtonToggleComponent, CardComponent, CheckBoxComponent, ChipsComponent, DatePickerComponent, DividerComponent, ExpansionPanelComponent, FormFieldComponent, GridListComponent, IconComponent, InputComponent, ListComponent, MenuComponent, PaginatorComponent, ProgressBarComponent, ProgressSpinnerComponent, RadioButtonComponent, SelectComponent, SideNavComponent, SlideToggleComponent, SliderComponent, SnackbarComponent, SortHeaderComponent, StepperComponent, TableComponent, TabsComponent],
+  imports: [RouterOutlet, AutocompleteComponent, BadgeComponent, ButtonComponent, ButtonToggleComponent, CardComponent, CheckBoxComponent, ChipsComponent, DatePickerComponent, DividerComponent, ExpansionPanelComponent, FormFieldComponent, GridListComponent, IconComponent, InputComponent, ListComponent, MenuComponent, PaginatorComponent, ProgressBarComponent, ProgressSpinnerComponent, RadioButtonComponent, SelectComponent, SideNavComponent, SlideToggleComponent, SliderComponent, SnackbarComponent, SortHeaderComponent, StepperComponent, TableComponent, TabsComponent, ToolbarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
